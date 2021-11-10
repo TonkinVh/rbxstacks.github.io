@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+}
+
+.main {
+    min-height: 75vh;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.nav.nav-pills .nav-link {
+    padding: 15px;
+}
+
+.nav.nav-pills .nav-link.active {
+    background-color: rgb(61, 61, 61) !important;
+}
+
+.btn-primary {
+    background-color: rgb(61, 61, 61) !important;
+    box-shadow: 0 5px rgb(41, 41, 41) !important;
+    border-color: rgb(61, 61, 61) !important;
+    margin-bottom: 3px;
+}
+
+.btn-danger {
+    background-color: rgb(220, 53, 69) !important;
+    box-shadow: 0 5px rgb(200 35 51) !important;
+    border-color: rgb(220, 53, 69) !important;
+    margin-bottom: 3px;
+}
+
+.navbar {
+    background-color: rgb(29, 29, 29) !important;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    margin-top: 5rem;
+}
+
+.footer a {
+    color: #ffe;
+    text-decoration: none !important;
+}
+
+.footer a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.card {
+    background-color: rgb(61, 61, 61);
+    border: none;
+    box-shadow: 2px 5px rgb(41, 41, 41) !important;
+}
+
+.countdown {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.countdown .countdown-item {
+    border-radius: .25rem;
+    padding: 15px;
+    background: rgb(61, 61, 61);
+    color: #ffffff;
+}
+
+.countdown .countdown-item:not(:first-child) {
+    margin-left: 5px;
+}
+
+.countdown .countdown-item span {
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+}
+
+.countdown .countdown-item span:first-child {
+    font-weight: 600;
+}
